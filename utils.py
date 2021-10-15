@@ -3,12 +3,12 @@ from time import sleep
 import functools
 import os
 
-#Disable output buffering, animations dont work witout it
+#Disable output buffering, animations wont work without it
 print = functools.partial(print, flush=True)
 
 def getDeck():
 
-	#Load the deck of cards from deck.txt
+	#load the deck of cards from deck.txt
 
 	try:
 		deckFile = open('deck.txt')

@@ -12,5 +12,4 @@ if __name__ == '__main__':
 		deck = utils.shuffling(deck)
 		utils.threeCardSpread(deck)
 		utils.saveDeck(deck)
-		os.system('pause')
 	exit()	
